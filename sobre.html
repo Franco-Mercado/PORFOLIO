@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Porfolio</title>
+</head>
+
+<body class="bg-1 vh-100">
+
+    <!-- NAVAGACION -->
+
+    <header>
+        <nav class="d-flex flex-wrap py-4">
+            <ul class="nav">
+                <li class="nav-item  mx-4 px-2 rounded-pill colorbtn shadow">
+                    <a class="nav-link link-light fw-bold hover2" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item  mx-4 px-2 rounded-pill colorbtn shadow">
+                    <a class="nav-link link-light fw-bold hover2" href="sobre.html">Sobre mi</a>
+                </li>
+                <li class="nav-item  mx-4 px-2 rounded-pill colorbtn shadow">
+                    <a class="nav-link link-light fw-bold hover2" href="proyecto.html">Proyecto</a>
+                </li>
+                <li class="nav-item  mx-4 px-2 rounded-pill colorbtn shadow">
+                    <a class="nav-link link-light fw-bold hover2" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <a href="CV franco mercado.pdf"
+                class=" d-flex align-items-center nav-link  ms-auto me-5 px-2 link-light rounded-pill shadow colorbtn2 fw-bold hover2">Descarga
+                mi CV</a>
+        </nav>
+    </header>
+
+    <!-- CUERPO MAIN -->
+
+    <main class="container">
+        <DIV class="row">
+
+            <!-- COLUMNA INFORMACION -->
+
+            <div class="col-lg-3 shadow colorbtn bordes pb-5">
+                <div class="text-center py-3">
+                    <img class="circulo1 img-fluid imgsize" src="imagenes/IMG_20200304_210059_316.jpg"
+                        alt="foto animada">
+                </div>
+                <h1 class="text-primary text-center fw-bold">Franco Mercado</h1>
+                <br>
+                <p class="fw-bold text-info">Programador Web Fullstack <br>(EN PROCESO)</p>
+                <p class="text-orange fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Unde ullam error vel, beatae deleniti odit tenetur quia
+                    esse fugit aut.</p><br>
+                <p class="text-orange fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vitae
+                    provident
+                    dolores eveniet eligendi numquam reprehenderit suscipit perspiciatis consectetur.
+                    Nulla sequi sit ab hic impedit excepturi. Nam incidunt modi velit.</p>
+            </div>
+
+            <!-- COLUMNA ESTUDIOS -->
+
+            <DIV class="col-lg-9 h-100">
+
+                <!-- TECNOLOGIA DE PROGRAMACION -->
+
+                <div class="shadow colorbtn bordes mb-3">
+                    <div class="text-center p-4">
+                        <h3 class="fw-bold text-white">Tecnologia de Programcion</h3>
+                    </div>
+                    <div class="d-flex justify-content-lg-around">
+                        <div class="text-center">
+                            <img class="imgicon" src="imagenes/html.png" alt="html">
+                            <p class="fw-bold p-4 text-white">HTML</p>
+                        </div>
+                        <div class="text-center">
+                            <img class="imgicon" src="imagenes/css.png" alt="html">
+                            <p class="fw-bold p-4 text-white">CSS</p>
+                        </div>
+                        <div class="text-center">
+                            <img class="imgicon" src="imagenes/javascript.svg" alt="html">
+                            <p class="fw-bold p-4 text-white">JAVASCRIPT</p>
+                        </div>
+                        <div class="text-center">
+                            <img class="imgicon" src="imagenes/bootstrap-icon-css.png" alt="html">
+                            <p class="fw-bold p-4 text-white">BOOTSTRAP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ESTUDIOS -->
+
+                <DIV class="shadow colorbtn bordes pb-5 h-100">
+                    <div class=" container text-center p-4">
+                        <h3 class="fw-bold text-white">Estudios</h3>
+                    </div>
+                    <div class="text-white  ">
+                        <div class=" d-flex mx-5 mb-5 bg-div bordes">
+                            <i class="bi bi-braces fs-1 p-4 bg-danger bordes "></i>
+                            <div class="ms-3">
+                                <h2 class="text-primary">Programacion Web Fullstack</h2>
+                                <h4 class="text-info">DePcSuite</h4>
+                                <p class="text-orange">Septiembre de 2021 - presente</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mx-5 mb-5 bg-div bordes ">
+                            <i class="bi bi-display fs-1 p-4 bg-danger bordes"></i>
+                            <div class="ms-3">
+                                <h2 class="text-primary">Mantencion y Reparacion de PC</h2>
+                                <h4 class="text-info">Academia Santo Domingo</h4>
+                                <p class="text-orange">Septiembre de 2020 - Agosto de 2021</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </DIV>
+        </DIV>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="d-flex justify-content-between align-items-center pt-3 mt-5 footerbg text-white fixed-bottom">
+        <div>
+            <a class="link-light" href="https://github.com/Franco-Mercado"><i
+                    class="bi bi-github fs-1 p-2 hover2"></i></a>
+            <a class="link-light" href="https://www.linkedin.com/in/franco-mercado-a31063209/"><i
+                    class="bi bi-linkedin fs-1 p-2 hover2"></i></a>
+        </div>
+        <div>
+            <p class="fw-bold">Franco Mercado Porfolio</p>
+        </div>
+        <div>
+        </div>
+    </footer>
+</body>
+
+</html>
